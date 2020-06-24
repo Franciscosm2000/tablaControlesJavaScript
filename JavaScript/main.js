@@ -78,20 +78,20 @@ function tamano()
 		case '1':
 				cont2=0;
 				cont3 = 0;
-				panel.style.width = '100px';
-		    	panel.style.height ='100px';
+				panel.style.width = '200px';
+		    	panel.style.height ='200px';
 			break;
 		case '2':
 			cont2 ++;
 
 			if(cont2 == 1)
 			{
-				panel.style.width = (tamX*3)+'px';
-		    	panel.style.height = (tamY*3)+'px';				
+				panel.style.width = (tamX*2)+'px';
+		    	panel.style.height = (tamY*2)+'px';				
 			}else
 			{
-				panel.style.width = (100*3)+'px';
-		    	panel.style.height = (100*3)+'px';	
+				panel.style.width = (200*2)+'px';
+		    	panel.style.height = (200*2)+'px';	
 			}
 			break;
 		case '3':
@@ -99,12 +99,12 @@ function tamano()
 
 			if (cont3 == 1)
 			{
-				panel.style.width = (tamX*4)+'px';
-				panel.style.height = (tamY*4)+'px';				
+				panel.style.width = (tamX*3)+'px';
+				panel.style.height = (tamY*3)+'px';				
 			}else
 			{
-				panel.style.width = (100*4)+'px';
-		    	panel.style.height = (100*4)+'px';		
+				panel.style.width = (200*3)+'px';
+		    	panel.style.height = (200*3)+'px';		
 			}
 			break;
     }
