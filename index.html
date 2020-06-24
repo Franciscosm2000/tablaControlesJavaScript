@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+	
+	<section class="main">
+		<div class="vertical">
+			<div class="ver">
+				<h2>Posisiciòn Y</h2>
+				<input class="y" type="range" min="1" max="600"  id="y">
+			</div>
+			<div class="ver">
+				<output id="rango">1 a 600</output>
+			</div>
+			
+		</div>
+		<div class="control">
+			<h2>Posisiciòn X</h2>
+			<div>
+				<input type="range" min="1" max="800" id="x">
+				<output id="rango2">1 a 800</output>
+			</div>
+
+		</div>
+		<div class="control">
+			<h2>Tamaño</h2>
+			<div>
+				<input type="range" min="1" max="3" step="1" id="tamano">
+				<output id="rango3">1 a 3</output>
+			</div>
+		</div>
+		<div class="control">
+			<h2>Opacidad</h2>
+			<div>
+				<input type="range" min="0" max="1" step="0.1" id="opacidad">
+				<output id="rango4">0.1 a 1</output>
+			</div>
+		</div>	
+		<div class="control">
+			<h2>Tipo de forma</h2>
+			<div class="subPadre">
+				<select name="comboBox" id="cmb">
+					<option value="Cuadrado">Cuadrado</option>
+					<option value="Circulo">Circulo</option>
+					<option value="Rombo">Rombo</option>
+				</select>
+				<input type="button" value="Aceptar" id="acpetar">
+			</div>
+		</div>	
+		<div class="control">
+			<h2>HEX</h2>
+			<div class="subPadre1">
+				<h4>#</h4>
+				<input type="text" id="hexadecimal">
+			</div>
+		</div>
+		<div class="control">
+			<h2>RGBA</h2>
+			<div class="subPadre">
+				<input type="range" min="0" max="255" step="1" id="r">
+				<output id="rango5">0 a 255</output>
+				<input type="range" min="0" max="255" step="1" id="g">
+				<output id="rango6">0 a 255</output>
+				<input type="range" min="0" max="255" step="1" id="b">
+				<output id="rango7">0 a 255</output>
+				<input type="range" min="0" max="1" step="0.1" id="a">
+				<output id="rango8">0 a 255</output>
+			</div>
+		</div>
+	</section>
+	<div class="panel" id="cuadro">
+		<p id="texto">Arrastra archivos aquì y te doy sus detalles.</p>
+	</div>
+	<script src="JavaScript/main.js"></script>
+</body>
+</html>
