@@ -174,7 +174,7 @@ function colorA()
 	panel.style.backgroundColor = "rgba"+color;
 	
 		var salida = document.getElementById("rango8");
-	salida.innerHTML= a.value+" de "+255;
+	salida.innerHTML= a.value+" de "+1;
 }
 
 function colorHex(e)
